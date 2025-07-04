@@ -1,0 +1,48 @@
+{% extends 'store/base.html' %}
+{% block content %}
+<div class="container mt-5">
+    <h2>Checkout</h2>
+    <form method="post">
+        {% csrf_token %}
+
+        <!-- Address -->
+        <div class="mb-3">
+            <label for="address" class="form-label">Shipping Address</label>
+            <textarea name="address" id="address" rows="4" class="form-control" required></textarea>
+        </div>
+
+        <!-- Pincode -->
+        <div class="mb-3">
+            <label for="pincode" class="form-label">Pincode</label>
+            <input type="text" class="form-control" name="pincode" required>
+        </div>
+
+        <!-- Payment Options -->
+        <div class="mb-4">
+            <label class="form-label">Select Payment Method</label><br>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="payment_method" id="card" value="CARD" required>
+                <label class="form-check-label" for="card">Card</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="payment_method" id="phonepe" value="PHONEPE">
+                <label class="form-check-label" for="phonepe">PhonePe</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="payment_method" id="gpay" value="GPAY">
+                <label class="form-check-label" for="gpay">Google Pay</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="payment_method" id="cod" value="COD">
+                <label class="form-check-label" for="cod">Cash on Delivery</label>
+            </div>
+        </div>
+
+        <!-- Total -->
+        <h4>Total: ₹{{ total }}</h4>
+
+        <!-- Submit -->
+        <button type="submit" class="btn btn-success">Proceed to Payment</button>
+    </form>
+</div>
+{% endblock %}

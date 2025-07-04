@@ -1,0 +1,64 @@
+{% extends 'store/base.html' %}
+{% block content %}
+<div class="container my-5">
+    <h2 class="text-center fw-bold mb-4">My Cart</h2>
+
+    {% if cart_items %}
+    <div class="table-responsive">
+        <table class="table table-bordered align-middle text-center">
+            <thead class="table-light">
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Qty</th>
+                    <th>Subtotal</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in cart_items %}
+                <tr>
+                    <td>
+                        <strong>{{ item.product.name }}</strong><br>
+                        {% if item.product.is_offer %}
+                            <span class="badge bg-danger mt-1">25% OFF</span>
+                        {% endif %}
+                    </td>
+                    <td>
+                        {% if item.product.is_offer %}
+                            <span class="text-muted text-decoration-line-through">₹{{ item.product.price }}</span><br>
+                            <span class="text-danger fw-bold">₹{{ item.price }}</span>
+                        {% else %}
+                            ₹{{ item.price }}
+                        {% endif %}
+                    </td>
+                    <td>{{ item.quantity }}</td>
+                    <td>₹{{ item.subtotal }}</td>
+                    <td>
+                        <a href="{% url 'remove_from_cart' item.product.id %}" class="btn btn-sm btn-danger">Remove</a>
+                    </td>
+                </tr>
+                {% endfor %}
+                <tr class="table-light">
+                    <td colspan="3" class="text-end"><strong>Total:</strong></td>
+                    <td colspan="2"><strong>₹{{ total }}</strong></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Continue Shopping and Checkout Buttons -->
+    <div class="d-flex justify-content-between mt-4">
+        <a href="{% url 'home' %}" class="btn btn-outline-primary">
+            ← Continue Shopping
+        </a>
+        <a href="{% url 'checkout' %}" class="btn btn-success px-4 py-2">Proceed to Checkout</a>
+    </div>
+    {% else %}
+    <p class="text-center">Your cart is empty.</p>
+    <div class="text-center mt-4">
+        <a href="{% url 'home' %}" class="btn btn-primary">← Start Shopping</a>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,12 @@
+
+{% extends 'store/base.html' %}
+{% block content %}
+<div class="container mt-5" style="max-width: 500px; border: 1px solid #ccc; padding: 30px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); text-align: center;">
+    <h3 class="mb-4">{{ method }} Payment</h3>
+    <p style="font-size: 1.1rem;">Simulate paying securely with {'method': 'PhonePe'}for your ElectroShop order.</p>
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-success btn-lg mt-3">Pay Now with {{ method }}</button>
+    </form>
+</div>
+{% endblock %}

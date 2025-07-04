@@ -1,0 +1,54 @@
+{% extends 'store/base.html' %}
+{% load static %}
+{% block content %}
+<div class="container my-5">
+    <h2 class="text-center fw-bold mb-4">My Profile</h2>
+
+    <form method="POST" enctype="multipart/form-data" class="mx-auto bg-white shadow rounded-4 p-4" style="max-width: 600px;">
+        {% csrf_token %}
+        
+        {% if messages %}
+            {% for message in messages %}
+                <div class="alert alert-{{ message.tags }}">{{ message }}</div>
+            {% endfor %}
+        {% endif %}
+        <div class="text-center mb-4">
+    {% if profile.profile_image %}
+        <img src="{{ profile.profile_image.url }}" class="rounded-circle border shadow" width="120" height="120" style="object-fit: cover;" alt="Profile Image">
+    {% else %}
+        <img src="{% static 'images/default.jpg' %}" class="rounded-circle border shadow" width="120" height="120" alt="Default Image">
+    {% endif %}
+</div>
+
+
+
+        <div class="mb-3">
+            <label for="profile_image" class="form-label">Change Profile Picture</label>
+            <input type="file" class="form-control" id="profile_image" name="profile_image" accept="image/*">
+        </div>
+
+        <div class="mb-3">
+            <label for="first_name" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="first_name" name="first_name" value="{{ user.first_name }}" required>
+        </div>
+        <div class="mb-3">
+            <label for="last_name" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="last_name" name="last_name" value="{{ user.last_name }}" required>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" name="email" value="{{ user.email }}" required>
+        </div>
+        <div class="mb-3">
+            <label for="mobile" class="form-label">Mobile</label>
+            <input type="text" class="form-control" id="mobile" name="mobile" value="{{ profile.mobile }}">
+        </div>
+        <div class="mb-3">
+            <label for="address" class="form-label">Address</label>
+            <textarea class="form-control" id="address" name="address">{{ profile.address }}</textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary w-100">Update Profile</button>
+    </form>
+</div>
+{% endblock %}
