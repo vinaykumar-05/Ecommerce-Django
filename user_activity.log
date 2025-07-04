@@ -1,0 +1,374 @@
+Watching for file changes with StatReloader
+D:\django project\electroshop\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django project\electroshop\store\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django project\electroshop\store\admin.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\django project\electroshop\store\admin.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /admin/ HTTP/1.1" 200 13465
+"GET / HTTP/1.1" 200 66207
+"GET /profile/ HTTP/1.1" 200 4635
+"GET /cart/ HTTP/1.1" 200 2866
+"GET /my-orders/ HTTP/1.1" 200 5179
+"POST /logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 65743
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4164
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 13465
+"GET /admin/store/registrationlog/ HTTP/1.1" 200 10367
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/store/loginlog/ HTTP/1.1" 200 10318
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/auth/user/ HTTP/1.1" 200 17784
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/store/loginlog/ HTTP/1.1" 200 10318
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/store/userprofile/ HTTP/1.1" 200 14096
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/store/userprofile/8/change/ HTTP/1.1" 200 14371
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/store/userprofile/ HTTP/1.1" 200 14096
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/store/product/ HTTP/1.1" 200 35520
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/store/order/ HTTP/1.1" 200 20108
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/store/registrationlog/ HTTP/1.1" 200 10367
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+Forbidden (CSRF token from POST incorrect.): /logout/
+"POST /logout/ HTTP/1.1" 403 2503
+"GET / HTTP/1.1" 200 66207
+"POST /logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 65743
+"GET /register/ HTTP/1.1" 200 4785
+"GET /register/ HTTP/1.1" 200 4785
+"GET /register/ HTTP/1.1" 200 4785
+"POST /register/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 66207
+"GET /admin/store/registrationlog/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/store/registrationlog/ HTTP/1.1" 200 3723
+"POST /admin/login/?next=/admin/store/registrationlog/ HTTP/1.1" 302 0
+"GET /admin/store/registrationlog/ HTTP/1.1" 200 12087
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/store/loginlog/ HTTP/1.1" 200 10318
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/store/registrationlog/ HTTP/1.1" 200 12087
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/store/registrationlog/1/change/ HTTP/1.1" 200 14261
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/store/registrationlog/ HTTP/1.1" 200 12087
+"GET /profile/ HTTP/1.1" 200 4635
+"GET /cart/ HTTP/1.1" 200 2866
+"GET / HTTP/1.1" 200 66207
+"GET /offers/ HTTP/1.1" 200 12002
+"GET /admin/store/loginlog/ HTTP/1.1" 200 10318
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/store/registrationlog/ HTTP/1.1" 200 12087
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"POST /logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 65743
+"GET /login/ HTTP/1.1" 200 3255
+"POST /login/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 66207
+"GET /admin/store/registrationlog/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/store/registrationlog/ HTTP/1.1" 200 3723
+"POST /admin/login/?next=/admin/store/registrationlog/ HTTP/1.1" 302 0
+"GET /admin/store/registrationlog/ HTTP/1.1" 200 12087
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/store/loginlog/ HTTP/1.1" 200 10318
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /profile/ HTTP/1.1" 200 4635
+"POST /logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 65743
+"GET /login/ HTTP/1.1" 200 3255
+"POST /login/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 66207
+"GET /my-orders/ HTTP/1.1" 200 2721
+"GET / HTTP/1.1" 200 66207
+"POST /logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 65743
+"GET /admin/store/loginlog/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/store/loginlog/ HTTP/1.1" 200 4194
+"POST /admin/login/?next=/admin/store/loginlog/ HTTP/1.1" 302 0
+"GET /admin/store/loginlog/ HTTP/1.1" 200 10318
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/store/loginlog/ HTTP/1.1" 200 10318
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+Watching for file changes with StatReloader
+"GET /login/ HTTP/1.1" 200 3719
+"POST /login/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 66207
+"GET /product/1/ HTTP/1.1" 200 3232
+"GET /add-to-cart/1/ HTTP/1.1" 302 0
+"GET /cart/ HTTP/1.1" 200 4511
+"GET /remove-from-cart/1/ HTTP/1.1" 302 0
+"GET /cart/ HTTP/1.1" 200 2866
+"GET / HTTP/1.1" 200 66207
+"GET /product/3/ HTTP/1.1" 200 3202
+"GET /add-to-cart/3/ HTTP/1.1" 302 0
+"GET /cart/ HTTP/1.1" 200 4258
+"GET /checkout/ HTTP/1.1" 200 4576
+"POST /checkout/ HTTP/1.1" 302 0
+"GET /fake-gpay/ HTTP/1.1" 200 3276
+"POST /fake-gpay/ HTTP/1.1" 302 0
+"GET /process-order/ HTTP/1.1" 302 0
+"GET /order-success/ HTTP/1.1" 200 2813
+"POST /logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 65742
+"GET /admin/store/loginlog/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/store/loginlog/ HTTP/1.1" 200 4194
+"POST /admin/login/?next=/admin/store/loginlog/ HTTP/1.1" 302 0
+"GET /admin/store/loginlog/ HTTP/1.1" 200 10318
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/store/loginlog/ HTTP/1.1" 200 10318
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/store/loginlog/ HTTP/1.1" 200 10318
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/store/loginlog/ HTTP/1.1" 200 10318
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/store/loginlog/ HTTP/1.1" 200 10318
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/store/loginlog/ HTTP/1.1" 200 10318
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/store/registrationlog/ HTTP/1.1" 200 12087
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/store/product/ HTTP/1.1" 200 35519
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/store/order/ HTTP/1.1" 200 20553
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/store/product/ HTTP/1.1" 200 35519
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/store/product/3/change/ HTTP/1.1" 200 16324
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/store/product/ HTTP/1.1" 200 35519
+"GET /admin/store/loginlog/ HTTP/1.1" 200 10318
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+D:\django project\electroshop\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django project\electroshop\store\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django project\electroshop\store\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django project\electroshop\store\admin.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django project\electroshop\store\admin.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django project\electroshop\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /login/ HTTP/1.1" 200 3719
+"POST /login/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 66206
+"GET /media/product_images/th_29.jpg HTTP/1.1" 304 0
+"GET /media/product_images/th_28.jpg HTTP/1.1" 304 0
+"GET /media/product_images/th_17_wTY3cc9.jpg HTTP/1.1" 304 0
+"GET /media/product_images/th_19.jpg HTTP/1.1" 304 0
+"GET /media/product_images/th_18_UyY64rp.jpg HTTP/1.1" 304 0
+"GET /media/product_images/th_27.jpg HTTP/1.1" 304 0
+"GET /media/product_images/th_20.jpg HTTP/1.1" 304 0
+"GET /media/product_images/th_16_BSPE55D.jpg HTTP/1.1" 304 0
+"GET /media/product_images/th_15_ymku0Wt.jpg HTTP/1.1" 304 0
+"GET /media/product_images/th_9_jSNkwiq.jpg HTTP/1.1" 304 0
+"GET /media/product_images/th_7_UAVOo64.jpg HTTP/1.1" 304 0
+"GET /media/product_images/th_8_y0zjfTl.jpg HTTP/1.1" 304 0
+"GET /media/product_images/th_26.jpg HTTP/1.1" 304 0
+"GET /media/product_images/th_25.jpg HTTP/1.1" 304 0
+"GET /media/product_images/th_23.jpg HTTP/1.1" 304 0
+"GET /media/product_images/th_14_gVZ2g1n.jpg HTTP/1.1" 304 0
+"GET /media/product_images/th_4_eYdZZiB.jpg HTTP/1.1" 304 0
+"GET /media/product_images/th_12_rfjMELw.jpg HTTP/1.1" 304 0
+"GET /media/product_images/th_22.jpg HTTP/1.1" 304 0
+"GET /media/product_images/th_5_BNtYJWw.jpg HTTP/1.1" 304 0
+"GET /media/product_images/th_13_oqaLuDE.jpg HTTP/1.1" 304 0
+"GET /media/product_images/th_6_pPnKtbg.jpg HTTP/1.1" 304 0
+"GET /media/product_images/th_24.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ac18.jpg HTTP/1.1" 304 0
+"GET /media/product_images/th_21.jpg HTTP/1.1" 304 0
+"GET /media/product_images/th_11_kJnf6OM.jpg HTTP/1.1" 304 0
+"GET /media/product_images/maxresdefault.jpg HTTP/1.1" 304 0
+"GET /media/product_images/th_10_GJdsgGj.jpg HTTP/1.1" 304 0
+"GET /media/product_images/Infinix-Zero-Book-Ultra.jpg HTTP/1.1" 304 0
+"GET /media/product_images/th_xQsJH2F.jpg HTTP/1.1" 304 0
+"GET /media/product_images/th_2_xGY6S7Z.jpg HTTP/1.1" 304 0
+"GET /media/product_images/th_3_Fie0cZo.jpg HTTP/1.1" 304 0
+"GET /media/product_images/th_1_9ey9Ol5.jpg HTTP/1.1" 304 0
+"GET /product/1/ HTTP/1.1" 200 3232
+"GET /add-to-cart/1/ HTTP/1.1" 302 0
+"GET /cart/ HTTP/1.1" 200 4511
+"GET /product/6/ HTTP/1.1" 200 3212
+"GET /add-to-cart/6/ HTTP/1.1" 302 0
+"GET /cart/ HTTP/1.1" 200 5071
+"GET /remove-from-cart/1/ HTTP/1.1" 302 0
+"GET /cart/ HTTP/1.1" 200 4256
+"GET /checkout/ HTTP/1.1" 200 4577
+"POST /checkout/ HTTP/1.1" 302 0
+"GET /process-order/ HTTP/1.1" 302 0
+"GET /order-success/ HTTP/1.1" 200 2813
+"GET / HTTP/1.1" 200 66205
+"GET /admin/store/loginlog/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/store/loginlog/ HTTP/1.1" 200 3709
+"POST /logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 65741
+"POST /admin/login/?next=/admin/store/loginlog/ HTTP/1.1" 302 0
+"GET /admin/store/loginlog/ HTTP/1.1" 200 10318
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/store/loginlog/ HTTP/1.1" 200 10318
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/store/registrationlog/ HTTP/1.1" 200 12087
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/store/userprofile/ HTTP/1.1" 200 14448
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/store/product/ HTTP/1.1" 200 35518
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/store/order/ HTTP/1.1" 200 20999
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/store/loginlog/ HTTP/1.1" 200 10318
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/store/category/ HTTP/1.1" 200 12613
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+D:\django project\electroshop\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django project\electroshop\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /login/ HTTP/1.1" 200 3719
+"POST /login/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 66205
+"GET /my-orders/ HTTP/1.1" 200 3556
+"GET /cart/ HTTP/1.1" 200 2866
+"GET / HTTP/1.1" 200 66205
+"GET /?category=11 HTTP/1.1" 200 16257
+"GET /product/23/ HTTP/1.1" 200 3208
+"GET /add-to-cart/23/ HTTP/1.1" 302 0
+"GET /cart/ HTTP/1.1" 200 4261
+"GET /checkout/ HTTP/1.1" 200 4575
+"POST /checkout/ HTTP/1.1" 302 0
+"GET /process-order/ HTTP/1.1" 302 0
+"GET /order-success/ HTTP/1.1" 200 2813
+D:\django project\electroshop\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django project\electroshop\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django project\electroshop\electroshop\settings.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django project\electroshop\electroshop\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden (CSRF token from POST incorrect.): /admin/logout/
+"POST /admin/logout/ HTTP/1.1" 403 2503
+Forbidden (CSRF token from POST incorrect.): /admin/logout/
+"POST /admin/logout/ HTTP/1.1" 403 2503
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 3679
+"GET / HTTP/1.1" 200 66204
+"GET /profile/ HTTP/1.1" 200 4631
+Not Found: /media/profile_images/default.png
+"GET /media/profile_images/default.png HTTP/1.1" 404 7458
+"POST /logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 65740
+"GET /my-orders/ HTTP/1.1" 302 0
+Not Found: /accounts/login/
+"GET /accounts/login/?next=/my-orders/ HTTP/1.1" 404 7200
+Internal Server Error: /logout/
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\views.py", line 137, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\views.py", line 141, in post
+    auth_logout(request)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\__init__.py", line 170, in logout
+    user_logged_out.send(sender=user.__class__, request=request, user=user)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\django project\electroshop\store\signals.py", line 19, in log_user_logout
+    logger.info(f"LOGOUT: {user.username} at {now()} from {get_client_ip(request)}")
+                           ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'username'
+"POST /logout/ HTTP/1.1" 500 118363
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 65740
+"GET /login/ HTTP/1.1" 200 3296
+"POST /login/ HTTP/1.1" 200 3296
+"POST /login/ HTTP/1.1" 200 3296
+D:\django project\electroshop\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django project\electroshop\electroshop\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 65747
+"GET /login/ HTTP/1.1" 200 3303
+"POST /login/ HTTP/1.1" 200 3303
+"POST /login/ HTTP/1.1" 200 3303
+"POST /login/ HTTP/1.1" 200 3303
+D:\django project\electroshop\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 65771
+"GET /login/ HTTP/1.1" 200 3327
+"POST /login/ HTTP/1.1" 200 3327
+D:\django project\electroshop\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django project\electroshop\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django project\electroshop\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"POST /login/ HTTP/1.1" 200 3285
+"POST /login/ HTTP/1.1" 200 3285
+"GET / HTTP/1.1" 200 65771
+"GET /cart/ HTTP/1.1" 200 2433
+"GET /login/ HTTP/1.1" 200 3285
+"POST /login/ HTTP/1.1" 200 3285
+D:\django project\electroshop\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 65771
+"GET / HTTP/1.1" 200 65771
+"GET / HTTP/1.1" 200 65771
+"GET / HTTP/1.1" 200 65771
+"GET / HTTP/1.1" 200 65771
+"GET / HTTP/1.1" 200 65771
+"GET / HTTP/1.1" 200 65771
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 65771
+"GET / HTTP/1.1" 200 65771
+"GET / HTTP/1.1" 200 65771
+"GET / HTTP/1.1" 200 65771
+"GET / HTTP/1.1" 200 65771
+"GET /login/ HTTP/1.1" 200 3285
+"POST /login/ HTTP/1.1" 200 3285
+D:\django project\electroshop\store\views.py changed, reloading.
+Watching for file changes with StatReloader
